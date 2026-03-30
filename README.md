@@ -216,4 +216,3 @@ When recording the 1–2 minute Gradio demo, cover these 3 scenes:
 3. **(20s)** Abstention — ask `"Is COMP4110 offered in Spring 2026?"` — show abstention phrase + advisor suggestion
 
 Demo Link : https://drive.google.com/file/d/1py4YBqEZhNZYTiOlTXKHd8LHdGaeecxf/view?usp=sharing
-Save to `demo/` or upload to YouTube (unlisted).
