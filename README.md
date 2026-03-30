@@ -1,4 +1,4 @@
-# UML Course Planning Assistant — Agentic RAG
+# CATALOG_AI - USF Course Planning Assistant — Agentic RAG
 
 A LangChain-based Retrieval-Augmented Generation (RAG) assistant that answers
 student course-planning questions **strictly grounded in the UML academic catalog**.
@@ -43,13 +43,13 @@ SERVE (every query)
 
 **Stack**
 
-| Component        | Choice                              | Cost  |
-|------------------|-------------------------------------|-------|
-| Agent framework  | LangChain ≥ 0.2                     | Free  |
-| Vector store     | FAISS (local)                       | Free  |
-| Embeddings       | `all-MiniLM-L6-v2` (HuggingFace)   | Free  |
-| LLM              | Groq `llama-3.1-8b-instant`         | Free  |
-| Demo UI          | Gradio                              | Free  |
+| Component        | Choice                              | 
+|------------------|-------------------------------------|
+| Agent framework  | LangChain ≥ 0.2                     | 
+| Vector store     | FAISS (local)                       | 
+| Embeddings       | `all-MiniLM-L6-v2` (HuggingFace)   | 
+| LLM              | Groq `llama-3.1-8b-instant`         |
+| Demo UI          | Gradio                              | 
 
 ---
 
@@ -99,9 +99,6 @@ data/raw/
 ```
 
 > **Rebuild from scratch:** delete `data/processed/*.json` (and optionally `vector_store/`) before re-running if you moved or replaced PDFs.
->
-> **Legacy:** PDF folders at the **repo root** (`Course Pages/` next to `app.py`) are still detected with a log warning—prefer `data/raw/` going forward.
-
 ---
 
 ## Run
@@ -155,33 +152,7 @@ Citation format:
 
 ## Data Sources
 
-| # | Document | URL | Type | Accessed |
-|---|----------|-----|------|----------|
-| 1 | COMP 1010 – Computing I | https://www.uml.edu/catalog/courses/comp/1010/ | course | 2026-03-29 |
-| 2 | COMP 1020 – Computing II | https://www.uml.edu/catalog/courses/comp/1020/ | course | 2026-03-29 |
-| 3 | COMP 2010 – Computing III | https://www.uml.edu/catalog/courses/comp/2010/ | course | 2026-03-29 |
-| 4 | COMP 2030 – Discrete Structures | https://www.uml.edu/catalog/courses/comp/2030/ | course | 2026-03-29 |
-| 5 | COMP 3010 – Org. of Programming Languages | https://www.uml.edu/catalog/courses/comp/3010/ | course | 2026-03-29 |
-| 6 | COMP 3040 – Algorithms | https://www.uml.edu/catalog/courses/comp/3040/ | course | 2026-03-29 |
-| 7 | COMP 3050 – Computer Architecture | https://www.uml.edu/catalog/courses/comp/3050/ | course | 2026-03-29 |
-| 8 | COMP 3080 – Operating Systems | https://www.uml.edu/catalog/courses/comp/3080/ | course | 2026-03-29 |
-| 9 | COMP 4040 – Theory of Computation | https://www.uml.edu/catalog/courses/comp/4040/ | course | 2026-03-29 |
-| 10 | COMP 4080 – Computer Networks | https://www.uml.edu/catalog/courses/comp/4080/ | course | 2026-03-29 |
-| 11 | COMP 4110 – Database Systems | https://www.uml.edu/catalog/courses/comp/4110/ | course | 2026-03-29 |
-| 12 | COMP 4130 – Machine Learning | https://www.uml.edu/catalog/courses/comp/4130/ | course | 2026-03-29 |
-| 13 | COMP 4350 – Software Engineering | https://www.uml.edu/catalog/courses/comp/4350/ | course | 2026-03-29 |
-| 14 | COMP 4610 – GUI Programming | https://www.uml.edu/catalog/courses/comp/4610/ | course | 2026-03-29 |
-| 15 | COMP 4960 – Senior Capstone | https://www.uml.edu/catalog/courses/comp/4960/ | course | 2026-03-29 |
-| 16 | MATH 1310 – Calculus I | https://www.uml.edu/catalog/courses/math/1310/ | course | 2026-03-29 |
-| 17 | MATH 1320 – Calculus II | https://www.uml.edu/catalog/courses/math/1320/ | course | 2026-03-29 |
-| 18 | MATH 2310 – Calculus III | https://www.uml.edu/catalog/courses/math/2310/ | course | 2026-03-29 |
-| 19 | MATH 2340 – Differential Equations | https://www.uml.edu/catalog/courses/math/2340/ | course | 2026-03-29 |
-| 20 | MATH 3220 – Statistics | https://www.uml.edu/catalog/courses/math/3220/ | course | 2026-03-29 |
-| 21 | BS CS – Degree Requirements | https://www.uml.edu/catalog/undergraduate/sciences/computer-science/bs-computer-science/ | program | 2026-03-29 |
-| 22 | CS Minor – Requirements | https://www.uml.edu/catalog/undergraduate/sciences/computer-science/cs-minor/ | program | 2026-03-29 |
-| 23 | CS Concentrations / Tracks | https://www.uml.edu/catalog/undergraduate/sciences/computer-science/ | program | 2026-03-29 |
-| 24 | Academic Grading Policy | https://www.uml.edu/catalog/policies/academic/grading-system/ | policy | 2026-03-29 |
-| 25 | Credit Limits & Transfer Policy | https://www.uml.edu/catalog/policies/academic/credit-hour/ | policy | 2026-03-29 |
+Dataset Link : https://docs.google.com/document/d/1jhMVEtiyf2gjpzOZVIkl-BCqafx6dJU2EuO5V_YE_6E/edit?usp=sharing
 
 ---
 
@@ -189,12 +160,12 @@ Citation format:
 
 After running `python src/evaluation/evaluator.py`, fill in the actuals:
 
-| Metric | Target | Actual |
+| Metric | Target | 
 |--------|--------|--------|
-| Citation Coverage Rate | 100% (cat 1–3) | \_\_\_ % |
-| Eligibility Correctness | ≥ 9 / 10 | \_\_\_ / 10 |
-| Abstention Accuracy | 5 / 5 | \_\_\_ / 5 |
-| Chain Correctness | ≥ 4 / 5 | \_\_\_ / 5 |
+| Citation Coverage Rate | 100% (cat 1–3) | 
+| Eligibility Correctness | ≥ 9 / 10 | 
+| Abstention Accuracy | 5 / 5 |
+| Chain Correctness | ≥ 4 / 5 |
 
 > **Do not fill these in speculatively — run the evaluator to get real numbers.**
 
@@ -230,6 +201,11 @@ catalog-rag/
 ```
 
 ---
+## Transcript Sampling 
+
+Documentation Link : https://docs.google.com/document/d/1RwwT8WBrgtoVS8ozQTdAxmDz4ptilKMneFuMLDZrdrE/edit?usp=sharing
+
+---
 
 ## Screen Recording Checklist
 
@@ -239,5 +215,5 @@ When recording the 1–2 minute Gradio demo, cover these 3 scenes:
 2. **(45s)** Course plan — fill sidebar profile → ask `"Plan my Fall 2026 semester"` — show multi-course plan with justifications
 3. **(20s)** Abstention — ask `"Is COMP4110 offered in Spring 2026?"` — show abstention phrase + advisor suggestion
 
-Record with **OBS Studio** (free) or **Windows Xbox Game Bar** (`Win + G`).
+Demo Link : https://drive.google.com/file/d/1py4YBqEZhNZYTiOlTXKHd8LHdGaeecxf/view?usp=sharing
 Save to `demo/` or upload to YouTube (unlisted).
