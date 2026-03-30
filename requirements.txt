@@ -1,0 +1,36 @@
+# Core LangChain stack
+langchain>=0.2.16
+langchain-core>=0.2.38
+langchain-community>=0.2.16
+langchain-text-splitters>=0.2.4
+langchain-huggingface>=0.0.3
+langchain-groq>=0.1.9
+
+# Vector store
+faiss-cpu>=1.8.0
+
+# Embeddings
+sentence-transformers>=3.0.1
+
+# Web scraping
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+lxml>=5.2.2
+
+# Data / config
+python-dotenv>=1.0.1
+pydantic>=2.7.4
+
+# PDF ingestion (for local PDF catalog files)
+pypdf>=4.3.0
+pdfplumber>=0.11.0
+
+# Gradio UI
+gradio>=4.42.0
+
+# Evaluation utilities
+pandas>=2.2.2
+tabulate>=0.9.0
+
+# Notebook (optional, for demos)
+ipykernel>=6.29.5

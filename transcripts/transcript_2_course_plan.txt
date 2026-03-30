@@ -1,0 +1,38 @@
+══════════════════════════════════════════════════════════════════════
+Transcript 2 — Course Plan Output with Justification and Citations
+══════════════════════════════════════════════════════════════════════
+
+STUDENT INPUT:
+I am enrolled in BS Computer Science at USF, catalog year 2025-2026. Completed courses: COP 2510 (B+), COP 2513 (A), MAC 2281 (B+), COT 3100 (A). Planning for Fall 2026. Max 15 credits. Please suggest a full course plan for my next semester, with justification for each course based on prerequisites and degree requirements.
+
+──────────────────────────────────────────────────────────────────────
+
+ASSISTANT RESPONSE:
+**Decision:** Eligible
+
+## Answer / Plan:
+Based on the provided catalog excerpts and student profile, I recommend the following course plan for Fall 2026:
+1. COP 4538 Data Structures and Algorithms (3 credits)
+2. CIS 3433 System Integration and Architecture for IT (3 credits)
+3. CNT 4104 Computer Information Networks (3 credits)
+
+## Why (requirements/prereqs satisfied):
+- COP 4538 Data Structures and Algorithms: 
+  - Prerequisites satisfied: COP 2513 (Object Oriented Programming) and MAC 1147 (Precalculus Algebra and Trigonometry) [Source: COP 4538 – Data Structures and Algorithms, https://catalog.usf.edu/..., Section: Prerequisites]
+  - Fulfills Specialization Courses requirement in the BS Computer Science program [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: Specialization Courses]
+- CIS 3433 System Integration and Architecture for IT: 
+  - Prerequisites satisfied: COP 2513 (Object Oriented Programming) and MAC 1147 (Precalculus Algebra and Trigonometry) [Source: CIS 3433 – System Integration and Architecture for IT, https://catalog.usf.edu/..., Section: Prerequisites]
+  - Fulfills Specialization Courses requirement in the BS Computer Science program [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: Specialization Courses]
+- CNT 4104 Computer Information Networks: 
+  - Prerequisites satisfied: COP 2513 (Object Oriented Programming) and MAC 1147 (Precalculus Algebra and Trigonometry) [Source: CNT 4104 – Computer Information Networks, https://catalog.usf.edu/..., Section: Prerequisites]
+  - Fulfills Specialization Courses requirement in the BS Computer Science program [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: Specialization Courses]
+
+## Citations:
+- [Source: COP 4538 – Data Structures and Algorithms, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: Specialization Courses]
+- [Source: CIS 3433 – System Integration and Architecture for IT, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: CNT 4104 – Computer Information Networks, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+- The actual course availability in Fall 2026 is not in the catalog.
+- The student should check the USF Registrar's schedule of classes for availability of these courses in Fall 2026.

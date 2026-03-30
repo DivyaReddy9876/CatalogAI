@@ -1,0 +1,23 @@
+══════════════════════════════════════════════════════════════════════
+Transcript 1 — Correct Eligibility Decision with Citations
+══════════════════════════════════════════════════════════════════════
+
+STUDENT INPUT:
+I am enrolled in BS Computer Science at USF. I have completed COP 2510 (grade B) and MAC 2281 (grade B). Planning for Fall 2026. Max 15 credits. Can I take COP 3514 (Program Design)?
+
+──────────────────────────────────────────────────────────────────────
+
+ASSISTANT RESPONSE:
+**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COP 3514 (Program Design) in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The student has completed the prerequisites for COP 3514: COP 2510 (Programming Concepts) with a grade of B [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites] and MAC 2281 (min grade B) [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites].
+
+## Citations:
+- [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+None

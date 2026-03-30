@@ -1,0 +1,15 @@
+══════════════════════════════════════════════════════════════════════
+Transcript 3 — Correct Abstention + Guidance
+══════════════════════════════════════════════════════════════════════
+
+STUDENT INPUT:
+I am enrolled in BS Computer Science at USF. My completed courses: COP 2510. Planning for Fall 2026. Max 15 credits. Is COP 4710 (Database Design) being offered in Spring 2026?
+
+──────────────────────────────────────────────────────────────────────
+
+ASSISTANT RESPONSE:
+I need a few more details before I can help you plan:
+
+1. What is your target program?
+2. What is your target term?
+3. Do you have any completed courses?

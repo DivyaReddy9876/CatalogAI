@@ -1,0 +1,556 @@
+id,category,query_snippet,has_citation,abstained,decision_score,expected_decision,expected_abstain,verified,elapsed_s,full_response,response_preview
+1,1,I am enrolled in BS Computer Science at USF. I have completed COP 2510 with a gr…,True,False,1.0,Eligible,False,True,2.79,"**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COP 2513 (Object Oriented Programming) in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 2510 with a grade of B+, which satisfies the prerequisite for COP 2513.
+
+## Citations:
+- [Source: COP 2510 – Programming Concepts, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: COP 2513 Object Oriented Programming, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+None
+
+Note: The student's completion of COP 2510 with a grade of B+ satisfies the prerequisite for COP 2513, as there is no minimum grade requirement specified in the catalog for COP 2513.","**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COP 2513 (Object Oriented Programming) in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 2510 with a …"
+2,1,I am enrolled in BS Computer Science at USF. I have only completed COP 2510 (gra…,True,False,1.0,Not eligible,False,True,2.52,"**Decision:** Not eligible
+
+## Answer / Plan:
+The student should take MAC 2281 before enrolling in COP 3514.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 2510 with a grade of B, which satisfies one of the prerequisites for COP 3514. However, the student has not completed MAC 2281, which is also a prerequisite for COP 3514. According to Excerpt 1, the student needs to have a minimum grade of B in MAC 2281 to enroll in COP 3514.
+
+## Citations:
+- [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: Information Technology B.S.I.T., https://catalog.usf.edu/..., Section: General]
+
+## Assumptions / Not in catalog:
+None
+
+Next step: The student should contact their academic advisor to discuss their course plan and determine the best course of action to take MAC 2281 before enrolling in COP 3514.","**Decision:** Not eligible
+
+## Answer / Plan:
+The student should take MAC 2281 before enrolling in COP 3514.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 2510 with a grade o…"
+3,1,I am enrolled in BS Computer Science at USF. I have completed COP 2510 (grade B)…,True,False,1.0,Eligible,False,True,2.22,"**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COP 3514 (Program Design) in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The student has completed the prerequisites for COP 3514: COP 2510 (Programming Concepts) with a grade of B [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites] and MAC 2281 (min grade B) [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites].
+
+## Citations:
+- [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+None","**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COP 3514 (Program Design) in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The student has completed the prerequisites for COP 351…"
+4,1,I am enrolled in BS Computer Science at USF. I completed COP 2510 with a grade o…,True,False,1.0,Not eligible,False,True,2.09,"**Decision:** Not eligible
+
+## Answer / Plan:
+The student should take COP 2513 in a future term after completing the prerequisite course CQP 2510 with a minimum grade of C.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 2510, but the minimum grade required for the prerequisite is a C, and the student received a D. [Source: COP 2513 – Object Oriented Programming, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Citations:
+- [Source: COP 2513 – Object Oriented Programming, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+None
+
+Next step: The student should contact their academic advisor to discuss alternative courses or a plan to retake COP 2510 with a grade of C or higher.","**Decision:** Not eligible
+
+## Answer / Plan:
+The student should take COP 2513 in a future term after completing the prerequisite course CQP 2510 with a minimum grade of C.
+
+## Why (requirements/prere…"
+5,1,I am enrolled in BS Computer Science at USF. My completed courses list is: COP 2…,True,False,1.0,Not eligible,False,True,2.38,"**Decision:** Not eligible
+
+## Answer / Plan:
+The student should check the USF catalog directly or contact their academic advisor for further guidance.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 2513, but the catalog does not provide information on the prerequisites for COP 4538.
+
+## Citations:
+- [Source: COP 4710 - Database Design, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+
+## Clarifying questions (if needed):
+1. Has the student completed the course listed as the direct prerequisite for COP 4538, which is COP 3515?
+
+## Assumptions / Not in catalog:
+Prerequisite data for COP 4538 was not found in the retrieved excerpts. Check the USF catalog directly or contact your advisor.","**Decision:** Not eligible
+
+## Answer / Plan:
+The student should check the USF catalog directly or contact their academic advisor for further guidance.
+
+## Why (requirements/prereqs satisfied):
+The st…"
+6,1,I am enrolled in BS Computer Science at USF. I have completed MAC 2281 (Calculus…,True,False,1.0,Eligible,False,True,1.89,"**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COT 3100 (Introduction to Discrete Structures) in Spring 2027.
+
+## Why (requirements/prereqs satisfied):
+The student has completed MAC 2281 (Calculus I) with a grade of A, which satisfies the prerequisite for COT 3100 (Introduction to Discrete Structures) [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General].
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+- [Source: COT 3100 – Introduction to Discrete Structures, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+None","**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COT 3100 (Introduction to Discrete Structures) in Spring 2027.
+
+## Why (requirements/prereqs satisfied):
+The student has completed MAC 22…"
+7,1,I am enrolled in BS Computer Science at USF. My completed courses: none yet. Pla…,True,False,1.0,Need more info,False,True,2.47,"**Decision:** Need more info
+
+## Answer / Plan:
+Contact your academic advisor to confirm the instructor consent for COP 2513.
+
+## Why (requirements/prereqs satisfied):
+The catalog does not explicitly state that instructor consent overrides the prerequisite for COP 2513.
+
+## Citations:
+- [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: Information Technology B.S.I.T., https://catalog.usf.edu/..., Section: General]
+
+## Clarifying questions (if needed):
+1. Has this consent been officially processed through the Registrar? Please confirm with your academic advisor.
+
+## Assumptions / Not in catalog:
+Prerequisite data for this course was not found in the retrieved excerpts. Check the USF catalog directly or contact your advisor.","**Decision:** Need more info
+
+## Answer / Plan:
+Contact your academic advisor to confirm the instructor consent for COP 2513.
+
+## Why (requirements/prereqs satisfied):
+The catalog does not explicitly …"
+8,1,I am enrolled in BS Computer Science at USF. I have completed COP 2513 with a gr…,True,False,1.0,Not eligible,False,True,2.48,"**Decision:** Not eligible
+
+## Answer / Plan:
+The student should check the prerequisites for COP 3515 in the catalog and ensure they meet all requirements.
+
+## Why (requirements/prereqs satisfied):
+The catalog does not specify the prerequisites for COP 3515 in the provided excerpts. However, we can infer that COP 3515 is a required course for the BS Computer Science program, as it is listed in the program's course requirements (Excerpt 4). To take COP 3515, the student must meet the prerequisites specified in the catalog.
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+- [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: General]
+
+## Clarifying questions (if needed):
+1. Has the student met the prerequisites for COP 3515 as specified in the catalog? If not, what are the missing prerequisites?
+
+## Assumptions / Not in catalog:
+Prerequisite data for COP 3515 was not found in the retrieved excerpts. Check the USF catalog directly or contact your advisor.
+
+To determine the prerequisites for COP 3515, the student should check the catalog or contact their academic advisor.","**Decision:** Not eligible
+
+## Answer / Plan:
+The student should check the prerequisites for COP 3515 in the catalog and ensure they meet all requirements.
+
+## Why (requirements/prereqs satisfied):
+Th…"
+9,1,I am enrolled in BS Computer Science at USF. I have completed COP 3515 (Advanced…,True,False,1.0,Eligible,False,True,1.57,"**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COP 4538 (Data Structures and Algorithms) in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 3515 (Advanced Program Design) with a grade of A, which is a prerequisite for COP 4538 (Data Structures and Algorithms). [Source: COP 3515 - Advanced Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Citations:
+- [Source: COP 3515 - Advanced Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: COP 4538 - Data Structures and Algorithms, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+None
+
+Note: The student's completed course and grade for COP 3515 (Advanced Program Design) meet the prerequisite requirement for COP 4538 (Data Structures and Algorithms).","**Decision:** Eligible
+
+## Answer / Plan:
+The student can take COP 4538 (Data Structures and Algorithms) in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The student has completed COP 3515 (Adv…"
+10,1,I am a first-semester freshman enrolled in BS Computer Science at USF. I have co…,True,False,1.0,Not eligible,False,True,1.52,"**Decision:** Not eligible
+
+## Answer / Plan:
+The student should check the USF Registrar's schedule of classes (https://www.usf.edu/registrar/) for available sections of CEN 4020 in Fall 2026.
+
+## Why (requirements/prereqs satisfied):
+The prerequisite for CEN 4020 is COP 4530 (min grade C) [Source: CEN 4020 – Software Engineering, https://catalog.usf.edu/..., Section: Prerequisites]. Since the student has not completed any courses, they do not meet the prerequisite requirement.
+
+## Citations:
+- [Source: CEN 4020 – Software Engineering, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Clarifying questions (if needed):
+1. Has the student confirmed their enrollment in the BS Computer Science program for Fall 2026?
+
+## Assumptions / Not in catalog:
+None.","**Decision:** Not eligible
+
+## Answer / Plan:
+The student should check the USF Registrar's schedule of classes (https://www.usf.edu/registrar/) for available sections of CEN 4020 in Fall 2026.
+
+## Why…"
+11,2,I am enrolled in BS Computer Science at USF. My completed courses: none. Plannin…,True,False,,,False,True,2.01,"**Decision:** Eligible
+
+## Answer / Plan:
+To take COP 4538 (Data Structures and Algorithms), you need to complete the following prerequisite chain:
+1. COP 2510 (Programming Concepts) with a minimum grade of B
+2. MAC 2281 (min grade B)
+
+## Why (requirements/prereqs satisfied):
+[Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+COP 3514 requires COP 2510 (min grade B) and MAC 2281 (min grade B) as prerequisites.
+[Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+Since COP 3514 is a prerequisite for COP 4538, we can infer that COP 2510 and MAC 2281 are also prerequisites for COP 4538.
+
+## Citations:
+- [Source: COP 3514 – Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+None.","**Decision:** Eligible
+
+## Answer / Plan:
+To take COP 4538 (Data Structures and Algorithms), you need to complete the following prerequisite chain:
+1. COP 2510 (Programming Concepts) with a minimum gr…"
+12,2,I am enrolled in BS Computer Science at USF. My completed courses: none. Plannin…,True,False,,,False,True,2.22,"**Decision:** Eligible
+
+## Answer / Plan:
+To reach COP 4703 (Advanced Database Systems), you need to take the prerequisite course COP 4538 (Data Structures and Algorithms) first.
+
+## Why (requirements/prereqs satisfied):
+COP 4538 is a prerequisite for COP 4703. [Source: COP 4703 – Advanced Database Systems, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Citations:
+- [Source: COP 4703 – Advanced Database Systems, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: COP 4538 – Data Structures and Algorithms, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+We assume that you have not taken COP 4538 or any other prerequisite for COP 4703. We also assume that you will take the courses in the correct order.
+
+To determine the minimum number of terms to reach COP 4703, we need to consider the prerequisites and the course load.
+
+You need to take COP 4538 first, which is a 3-credit course. Then, you can take COP 4703, which is also a 3-credit course.
+
+Assuming you take 15 credits per term, you can take COP 4538 in Fall 2026 and COP 4703 in Spring 2027.
+
+Therefore, the minimum number of terms to reach COP 4703 is 2 terms.","**Decision:** Eligible
+
+## Answer / Plan:
+To reach COP 4703 (Advanced Database Systems), you need to take the prerequisite course COP 4538 (Data Structures and Algorithms) first.
+
+## Why (requirements…"
+13,2,I am enrolled in BS Computer Science at USF. My completed courses: none. Plannin…,True,False,,,False,True,1.98,"**Decision:** Eligible
+
+## Answer / Plan:
+To take COT 4400 (Analysis of Algorithms), you must complete the following courses:
+1. COP 4530 (no information provided about this course in the given excerpts, so we cannot verify the prerequisites)
+2. State Mandated Common Course Prerequisites:
+   - MAC XXXX (Calculus I) - 4 credit hours
+   - MAC XXXX (Calculus II) - 4 credit hours
+   - PHY XXXX (General Physics I with Lab) - 4 credit hours
+   - PHY XXXX (General Physics II with Lab) - 4 credit hours
+3. Algebra through Calculus Mathematics Pathway:
+   - MAC 4105 (College Algebra) - 3 credit hours
+   - MAC 2311 (Calculus) - 4 credit hours
+   - MAC 2312 (Calculus II) - 4 credit hours
+
+## Why (requirements/prereqs satisfied):
+The prerequisites for COT 4400 are not explicitly stated in the provided excerpts. However, we can infer that COP 4530 is a prerequisite based on Excerpt 2. The State Mandated Common Course Prerequisites and Algebra through Calculus Mathematics Pathway are explicitly stated in Excerpt 4.
+
+## Citations:
+- [Source: COT 4400 – Analysis of Algorithms, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: State Mandated Common Course Prerequisites]
+
+## Assumptions / Not in catalog:
+We assume that COP 4530 is a prerequisite for COT 4400, but we cannot verify this information in the provided excerpts.","**Decision:** Eligible
+
+## Answer / Plan:
+To take COT 4400 (Analysis of Algorithms), you must complete the following courses:
+1. COP 4530 (no information provided about this course in the given excerp…"
+14,2,"I am enrolled in BS Computer Science at USF. My completed courses: COP 2510, MAC…",True,False,,,False,True,2.38,"**Decision:** Need more info
+
+## Answer / Plan:
+Check the prerequisites for COT 3100.
+
+## Why (requirements/prereqs satisfied):
+[Source: COT 3100 – Introduction to Discrete Structures, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: Major Core Courses]
+- [Source: COT 3100 – Introduction to Discrete Structures, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Clarifying questions (if needed):
+1. What are the prerequisites for COT 3100?
+
+## Assumptions / Not in catalog:
+None
+
+To answer the student's question, I need to check the prerequisites for COT 3100.","**Decision:** Need more info
+
+## Answer / Plan:
+Check the prerequisites for COT 3100.
+
+## Why (requirements/prereqs satisfied):
+[Source: COT 3100 – Introduction to Discrete Structures, https://catalog…"
+15,2,I am enrolled in BS Computer Science at USF. My completed courses: none. Plannin…,True,False,,,False,True,2.93,"**Decision:** Eligible
+
+## Answer / Plan:
+To take COP 4703 (Advanced Database Systems), the student must first take COP 4538 (Data Structures and Algorithms) and then COP 4703.
+
+## Why (requirements/prereqs satisfied):
+COP 4538 is a prerequisite for COP 4703, as stated in the catalog: ""Prerequisite(s): COP 4538 Data Structures and Algorithms"" [Source: COP 4703 – Advanced Database Systems, https://catalog.usf.edu/..., Section: Prerequisites].
+COP 4538 is a requirement for the Computer Science B.S.C.S. program, as stated in the catalog: ""COP 4530 Data Structures Credit(s): 3 COP 4538 Data Structures and Algorithms Credit(s): 3"" [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: Major Core Courses].
+
+## Citations:
+- [Source: COP 4703 – Advanced Database Systems, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: Major Core Courses]
+- [Source: COP 4538 – Data Structures and Algorithms, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: COP 3515 – Advanced Program Design, https://catalog.usf.edu/..., Section: Prerequisites]
+- [Source: COP 4530 – Data Structures, https://catalog.usf.edu/..., Section: Prerequisites]
+
+## Assumptions / Not in catalog:
+The student's completed courses and grades are not provided, so we cannot verify if the student has met the prerequisites for COP 4538. The student should check their completed courses and grades to ensure they meet the prerequisites.
+
+To determine the earliest term the student could take COP 4703, we need to check the prerequisites for COP 4538. According to the catalog, the prerequisites for COP 4538 are COP 3515 (Advanced Program Design) and COP 4530 (Data Structures) [Source: COP 4538 – Data Structures and Algorithms, https://catalog.usf.edu/..., Section: Prerequisites]. However, the catalog does not specify the prerequisites for COP 3515 and COP 4530.
+
+To determine the prerequisites for COP 3515 and COP 4530, we need to check the catalog for these courses. According to the catalog, the prerequisites for COP 3515 are COP 2513 (Object Oriented Programming) and COP 2510 (Programming Concepts) [Source: COP 3515 – Advanced Program Design, https://catalog.usf.edu/..., Section: Prerequisites]. The prerequisites for COP 4530 are COP 2513 (Object Oriented Programming) and COP 2510 (Programming Concepts) [Source: COP 4530 – Data Structures, https://catalog.usf.edu/..., Section: Prerequisites].
+
+Since the student has not completed any courses, we cannot determine the earliest term the student could take COP 4703. The student should check their completed courses and grades to ensure they meet the prerequisites for COP 4538 and COP 3515.","**Decision:** Eligible
+
+## Answer / Plan:
+To take COP 4703 (Advanced Database Systems), the student must first take COP 4538 (Data Structures and Algorithms) and then COP 4703.
+
+## Why (requirements/p…"
+16,3,"I am enrolled in BS Computer Science at USF, catalog year 2025-2026. My complete…",True,False,,,False,True,2.21,"**Decision:** Eligible
+
+## Answer / Plan:
+The total credit hours required to earn the Bachelor of Science in Computer Science is 120 credit hours.
+
+## Why (requirements/prereqs satisfied):
+[Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+The program requires a minimum of 120 credit hours for completion.
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+
+## Assumptions / Not in catalog:
+None","**Decision:** Eligible
+
+## Answer / Plan:
+The total credit hours required to earn the Bachelor of Science in Computer Science is 120 credit hours.
+
+## Why (requirements/prereqs satisfied):
+[Source: Co…"
+17,3,"I am enrolled in BS Computer Science at USF, catalog year 2025-2026. My complete…",True,False,,,False,True,1.8,"**Decision:** Eligible
+
+## Answer / Plan:
+The required core courses for the BS in Computer Science are:
+- COP 3514 - Program Design
+- COP 4530 - Data Structures
+- COP 4600 - Operating Systems
+- COT 4400 - Analysis of Algorithms
+
+## Why (requirements/prereqs satisfied):
+[Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+The program requires 9 hours of software electives, 3 hours of theory electives, and an additional non-overlapping 9 hours of CSE electives.
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+
+## Assumptions / Not in catalog:
+None","**Decision:** Eligible
+
+## Answer / Plan:
+The required core courses for the BS in Computer Science are:
+- COP 3514 - Program Design
+- COP 4530 - Data Structures
+- COP 4600 - Operating Systems
+- COT 44…"
+18,3,"I am enrolled in BS Computer Science at USF, catalog year 2025-2026. My complete…",True,False,,,False,True,2.11,"**Decision:** Eligible
+
+## Answer / Plan:
+You can take up to 9 hours of software electives, 3 hours of theory electives, and an additional non-overlapping 9 hours of CSE electives from outside the Computer Science department.
+
+## Why (requirements/prereqs satisfied):
+[Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+Computer Science students must choose 9 hours of software electives, 3 hours of theory electives, and an additional non-overlapping 9 hours of CSE electives from the College.
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+
+## Assumptions / Not in catalog:
+None","**Decision:** Eligible
+
+## Answer / Plan:
+You can take up to 9 hours of software electives, 3 hours of theory electives, and an additional non-overlapping 9 hours of CSE electives from outside the Com…"
+19,3,"I am enrolled in BS Computer Science at USF, catalog year 2025-2026. My complete…",True,False,,,False,True,2.2,"**Decision:** Need more info
+
+## Answer / Plan:
+Check the State Mandated Common Course Prerequisites section in the catalog to confirm if MAC 2281 satisfies the State Common Prerequisite math requirement.
+
+## Why (requirements/prereqs satisfied):
+[Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+
+## Assumptions / Not in catalog:
+None
+
+Please provide the State Mandated Common Course Prerequisites section in the catalog for further verification.","**Decision:** Need more info
+
+## Answer / Plan:
+Check the State Mandated Common Course Prerequisites section in the catalog to confirm if MAC 2281 satisfies the State Common Prerequisite math requirem…"
+20,3,"I am enrolled in BS Computer Science at USF, catalog year 2025-2026. My complete…",True,False,,,False,True,1.55,"**Decision:** Eligible
+
+## Answer / Plan:
+The minimum GPA required to remain in good academic standing in the Computer Science program is 2.0.
+
+## Why (requirements/prereqs satisfied):
+[Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: GPA Requirements]
+
+## Citations:
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: GPA Requirements]
+
+## Assumptions / Not in catalog:
+None
+
+Note: The catalog explicitly states that students must have and maintain a minimum 2.0 semester GPA, 2.0 Math and Science GPA, 2.0 Specialization GPA, 2.0 USF GPA, and 2.0 overall GPA to remain in good academic standing in the Computer Science program.","**Decision:** Eligible
+
+## Answer / Plan:
+The minimum GPA required to remain in good academic standing in the Computer Science program is 2.0.
+
+## Why (requirements/prereqs satisfied):
+[Source: Comput…"
+21,4,I am enrolled in BS Computer Science at USF. My completed courses: COP 2510. Pla…,False,True,,,True,True,1.75,"**Decision:** Not eligible
+
+## Answer / Plan:
+Contact your academic advisor for course availability in Spring 2026.
+
+## Why (requirements/prereqs satisfied):
+I don't have that information in the provided catalog/policies.
+
+## Citations:
+- *(none — see Assumptions section)*
+
+## Assumptions / Not in catalog:
+Course availability in Spring 2026 is not in the catalog.","**Decision:** Not eligible
+
+## Answer / Plan:
+Contact your academic advisor for course availability in Spring 2026.
+
+## Why (requirements/prereqs satisfied):
+I don't have that information in the provi…"
+22,4,I am enrolled in BS Computer Science at USF. My completed courses: COP 2510. Pla…,False,True,,,True,True,1.44,"**Decision:** Not eligible
+
+## Answer / Plan:
+Contact your academic advisor for guidance on course selection and planning.
+
+## Why (requirements/prereqs satisfied):
+Not applicable
+
+## Citations:
+- *(none — see Assumptions section)*
+
+## Assumptions / Not in catalog:
+The professor teaching COT 4400 is not in the catalog.","**Decision:** Not eligible
+
+## Answer / Plan:
+Contact your academic advisor for guidance on course selection and planning.
+
+## Why (requirements/prereqs satisfied):
+Not applicable
+
+## Citations:
+- *(n…"
+23,4,I am enrolled in BS Computer Science at USF. My completed courses: none. Plannin…,True,True,,,True,True,1.43,"**Decision:** Not eligible
+
+## Answer / Plan:
+Contact the Office of the Registrar to inquire about the waiver process for COP 2510.
+
+## Why (requirements/prereqs satisfied):
+There is no information in the provided catalog excerpts about waiving prerequisites based on industry experience.
+
+## Citations:
+- [Source: Academic Policies and Procedures, https://catalog.usf.edu/..., Section: General]
+- [Source: Computer Science B.S.C.S., https://catalog.usf.edu/..., Section: General]
+
+## Assumptions / Not in catalog:
+Waiver process for COP 2510 based on industry experience is not documented in the catalog.
+
+Note: The catalog excerpts do not provide information about waiving prerequisites based on industry experience. The student should contact the Office of the Registrar to inquire about the waiver process for COP 2510.","**Decision:** Not eligible
+
+## Answer / Plan:
+Contact the Office of the Registrar to inquire about the waiver process for COP 2510.
+
+## Why (requirements/prereqs satisfied):
+There is no information in…"
+24,4,"I am enrolled in BS Computer Science at USF. My completed courses: COP 2510, COP…",False,True,,,True,True,1.64,"## Answer / Plan:
+I don't have that information in the provided catalog/policies.
+
+## Why (requirements/prereqs satisfied):
+N/A
+
+## Citations:
+- *(none — see Assumptions section)*
+
+## Assumptions / Not in catalog:
+The waitlist policy for overenrolled courses at USF is not in the catalog.","## Answer / Plan:
+I don't have that information in the provided catalog/policies.
+
+## Why (requirements/prereqs satisfied):
+N/A
+
+## Citations:
+- *(none — see Assumptions section)*
+
+## Assumptions / No…"
+25,4,I am enrolled in BS Computer Science at USF with a cumulative GPA of 3.8. My com…,False,True,,,True,True,1.8,"**Decision:** Not eligible
+
+## Answer / Plan:
+Contact your academic advisor for guidance on available scholarships.
+
+## Why (requirements/prereqs satisfied):
+Not in the catalog excerpts provided.
+
+## Citations:
+- *(none — see Assumptions section)*
+
+## Assumptions / Not in catalog:
+The student's GPA is above 3.5, but the catalog does not specify a scholarship for Computer Science majors with a GPA above 3.5.
+
+Note: The catalog excerpts provided do not mention any scholarships specifically for Computer Science majors with a GPA above 3.5. The student should contact their academic advisor for guidance on available scholarships.","**Decision:** Not eligible
+
+## Answer / Plan:
+Contact your academic advisor for guidance on available scholarships.
+
+## Why (requirements/prereqs satisfied):
+Not in the catalog excerpts provided.
+
+## …"
