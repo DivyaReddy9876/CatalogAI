@@ -77,14 +77,30 @@ python build_index.py
 ```
 
 This will:
-- Scrape 25 UML catalog pages → `data/raw/`
-- Clean HTML → `data/processed/`
+- **If PDFs exist** under `data/raw/` (see layout below) → extract text → `data/processed/`
+- **Else** scrape catalog HTML → `data/raw/` → clean → `data/processed/`
 - Chunk into 500-token segments → in memory
 - Embed with MiniLM → `vector_store/catalog_index/`
 
 > **If some URLs return 404:** UML periodically updates their catalog URLs.
 > Open `data/urls.py`, find the failing `doc_id`, visit `https://www.uml.edu/catalog/`
 > to get the current URL, update the entry, and re-run `python build_index.py`.
+
+### Catalog PDF layout (USF / local PDFs)
+
+Put exports here (then run `python build_index.py`):
+
+```
+data/raw/
+├── Course Pages/
+├── Program Pages/
+├── Academic Policy Page/
+└── Additional Pages/
+```
+
+> **Rebuild from scratch:** delete `data/processed/*.json` (and optionally `vector_store/`) before re-running if you moved or replaced PDFs.
+>
+> **Legacy:** PDF folders at the **repo root** (`Course Pages/` next to `app.py`) are still detected with a log warning—prefer `data/raw/` going forward.
 
 ---
 

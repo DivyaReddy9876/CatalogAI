@@ -6,7 +6,8 @@ FAISS index in five steps.  Run this ONCE before starting the assistant.
 
 Steps
 -----
-1  Scrape   → download 25+ catalog HTML pages to data/raw/
+1  Ingest  → PDFs in data/raw/Course Pages|Program Pages|Academic Policy Page|Additional Pages/
+            (or scrape HTML to data/raw/ when no PDFs are present)
 2  Clean    → strip boilerplate, normalise → data/processed/
 3  Chunk    → split into 500-token overlapping chunks with metadata
 4  Embed    → encode chunks with all-MiniLM-L6-v2 (downloads ~90 MB first run)

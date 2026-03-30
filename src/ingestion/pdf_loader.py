@@ -1,10 +1,12 @@
 """
-pdf_loader.py — loads the local PDF catalog files that already exist in the
-workspace (Course Pages/, Program Pages/, Academic Policy Page/).
+pdf_loader.py — loads local PDF catalog files from data/raw/:
 
-This is an alternative ingestion path to the web scraper.  Since the PDFs
-are already present, this is the fastest way to build the index — no
-internet connection or URL verification needed.
+    data/raw/Course Pages/
+    data/raw/Program Pages/
+    data/raw/Academic Policy Page/
+    data/raw/Additional Pages/
+
+This is an alternative ingestion path to the web scraper.
 
 Usage (called by build_index.py when PDFs are detected):
     from src.ingestion.pdf_loader import load_local_pdfs
@@ -27,14 +29,45 @@ import config
 
 logger = logging.getLogger(__name__)
 
-# Map folder names → doc_type
-# NOTE: "Additional Pages" excluded — those are massive admissions/registration
-# documents not relevant to course prerequisite planning.
+# Map folder names (under data/raw/) → doc_type
 _FOLDER_TYPE: Dict[str, str] = {
-    "Course Pages":         "course",
-    "Program Pages":        "program",
-    "Academic Policy Page": "policy",
+    "Course Pages":          "course",
+    "Program Pages":         "program",
+    "Academic Policy Page":  "policy",
+    "Additional Pages":      "additional",
 }
+
+
+def _any_pdfs_in_subfolders(parent: Path) -> bool:
+    """True if ``parent/<Folder Name>/*.pdf`` exists for any known folder."""
+    for folder_name in _FOLDER_TYPE:
+        d = parent / folder_name
+        if d.is_dir() and any(d.glob("*.pdf")):
+            return True
+    return False
+
+
+def _catalog_raw_root(catalog_parent: Optional[Path] = None) -> Path:
+    """
+    Directory that *contains* ``Course Pages/``, ``Program Pages/``, etc.
+
+    - If ``catalog_parent`` is passed, use it.
+    - Else prefer ``data/raw/`` when it holds PDFs.
+    - Else fall back to repo root (legacy layout) with a log warning.
+    - Default target for new installs: ``data/raw/``.
+    """
+    if catalog_parent is not None:
+        return catalog_parent
+    if _any_pdfs_in_subfolders(config.RAW_DIR):
+        return config.RAW_DIR
+    if _any_pdfs_in_subfolders(config.BASE_DIR):
+        logger.warning(
+            "PDF catalog folders found at repo root — move them to "
+            "data/raw/Course Pages/, data/raw/Program Pages/, etc. (see README)."
+        )
+        return config.BASE_DIR
+    return config.RAW_DIR
+
 
 def _extract_text_pymupdf(path: Path) -> str:
     """
@@ -150,15 +183,17 @@ def _normalise_text(text: str) -> str:
     return text.strip()
 
 
-def load_local_pdfs(base_dir: Optional[Path] = None) -> List[Dict]:
+def load_local_pdfs(catalog_parent: Optional[Path] = None) -> List[Dict]:
     """
-    Scan the workspace for PDF files in known catalog folders and extract
-    their text into structured document dicts.
+    Scan ``catalog_parent`` (default: ``data/raw/``) for PDFs in the four
+    catalog subfolders and extract text into document dicts.
+
+    ``catalog_parent`` should be the directory that *contains* ``Course Pages/``,
+    ``Program Pages/``, etc. (not the project root).
 
     Returns a list of document dicts compatible with the chunker.
     """
-    if base_dir is None:
-        base_dir = config.BASE_DIR
+    raw_root = _catalog_raw_root(catalog_parent)
 
     documents: List[Dict] = []
     metadata_updates: Dict = {}
@@ -169,7 +204,7 @@ def load_local_pdfs(base_dir: Optional[Path] = None) -> List[Dict]:
         existing_meta = json.loads(config.METADATA_FILE.read_text(encoding="utf-8"))
 
     for folder_name, doc_type in _FOLDER_TYPE.items():
-        folder = base_dir / folder_name
+        folder = raw_root / folder_name
         if not folder.exists():
             continue
 
@@ -206,7 +241,9 @@ def load_local_pdfs(base_dir: Optional[Path] = None) -> List[Dict]:
             doc = {
                 "doc_id":        doc_id,
                 "title":         pdf_path.stem,
-                "url":           str(pdf_path.relative_to(base_dir)).replace("\\", "/"),
+                "url": str(
+                    pdf_path.relative_to(config.BASE_DIR)
+                ).replace("\\", "/"),
                 "doc_type":      doc_type,
                 "date_accessed": config.DATE_ACCESSED,
                 "text":          clean_text,
@@ -240,12 +277,6 @@ def load_local_pdfs(base_dir: Optional[Path] = None) -> List[Dict]:
     return documents
 
 
-def has_local_pdfs(base_dir: Optional[Path] = None) -> bool:
-    """Return True if any local PDF files are found in the catalog folders."""
-    if base_dir is None:
-        base_dir = config.BASE_DIR
-    for folder_name in _FOLDER_TYPE:
-        folder = base_dir / folder_name
-        if folder.exists() and any(folder.glob("*.pdf")):
-            return True
-    return False
+def has_local_pdfs(catalog_parent: Optional[Path] = None) -> bool:
+    """Return True if local PDFs exist in the resolved catalog root (see ``_catalog_raw_root``)."""
+    return _any_pdfs_in_subfolders(_catalog_raw_root(catalog_parent))

@@ -12,7 +12,7 @@ load_dotenv()
 # ── Directory layout ──────────────────────────────────────────────────────────
 BASE_DIR         = Path(__file__).parent.resolve()
 DATA_DIR         = BASE_DIR / "data"
-RAW_DIR          = DATA_DIR / "raw"
+RAW_DIR          = DATA_DIR / "raw"  # PDFs: raw/Course Pages/, Program Pages/, etc.
 PROCESSED_DIR    = DATA_DIR / "processed"
 VECTOR_STORE_DIR = BASE_DIR / "vector_store"
 TRANSCRIPTS_DIR  = BASE_DIR / "transcripts"
